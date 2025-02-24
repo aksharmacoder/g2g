@@ -1,93 +1,69 @@
-# g2g
-Garbage 2 Gold: Fixing the e-waste problem of the world with blockchain technology.
+# Welcome to your Lovable project
 
+## Project info
 
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Binance Smart Chain](https://img.shields.io/badge/Binance%20Smart%20Chain-yellow?logo=smartthings)](https://www.binance.org/en/smartChain)
+**URL**: https://lovable.dev/projects/700e5576-d57b-4f51-8811-61ea93f1a5e0
 
- Project Overview
+## How can I edit this code?
 
-Garbage 2 Gold (G2G) is a revolutionary Web3 project aimed at solving the global e-waste crisis through a decentralized network of recycling units powered by the Binance Smart Chain (BSC). We are building a sustainable ecosystem that transforms electronic waste into valuable resources, incentivizing participation through tokenomics and NFTs.
+There are several ways of editing your application.
 
-Our Mission: To establish a globally scalable, decentralized e-waste management system that promotes a circular economy and reduces the environmental impact of electronic waste.
+**Use Lovable**
 
-Key Features:
+Simply visit the [Lovable Project](https://lovable.dev/projects/700e5576-d57b-4f51-8811-61ea93f1a5e0) and start prompting.
 
-Decentralized Recycling Units (DRUs): Scalable recycling facilities deployed globally, capable of processing e-waste within a radius of 10,000 to 1,000,000 square kilometers, depending on population density and tier.
+Changes made via Lovable will be committed automatically to this repo.
 
-G2G Token (Governance & Equity): A governance token representing equity in the project, granting holders voting rights, early investor perks, and staking rewards based on project revenue.
-E-WASTE Token (Utility): The ecosystem's transaction currency, used for all interactions within the G2G platform and for staking rewards.
-Asset NFTs:** NFTs representing ownership and investment in specific DRUs, providing holders with revenue-sharing opportunities based on the unit's capacity (25 to 250,000 tons/day).
-Equity NFTs: NFTs representing 2.5% equity in the project, granting holders governance rights and early investor perks.
-Transparency & Tracking:** End-to-end tracking of e-waste from origin to final product using blockchain technology.
+**Use your preferred IDE**
 
-Tokenomics
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-G2G Token
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-* Total Supply: 1,000,000 G2G
-* Initial Price: 25 USDT
-* Distribution:
-    * 25% - Public Exchange Listings
-    * 25% - Early Contributors (Staking)
-    * 25% - E-WASTE Token Staking Rewards
-    * 25% - Liquidity Reserve
+Follow these steps:
 
-E-WASTE Token
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-* The primary transaction currency for the G2G ecosystem.
-* Used for staking to earn G2G rewards.
-* Available for purchase on the official website and centralized/decentralized exchanges.
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-NFTs
+# Step 3: Install the necessary dependencies.
+npm i
 
-* Asset NFTs: Represent ownership in DRUs with varying capacities, generating revenue for holders.
-* Equity NFTs: Each NFT represents 2.5% equity, granting governance and voting rights.
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-Getting Started
+**Edit a file directly in GitHub**
 
-1.  Clone the Repository:
-    ```bash
-    git clone [repository URL]
-    cd Garbage2Gold
-    ```
-2.  **Install Dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-3.  **Connect to Binance Smart Chain:**
-    * Set up your BSC RPC URL.
-    * Configure your Web3 provider.
-4.  **Deploy or Interact with Smart Contracts:**
-    * Use the provided smart contract ABIs and addresses.
-    * Refer to the documentation for contract interactions.
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-Contributing
+**Use GitHub Codespaces**
 
-We welcome contributions from the community! Please follow these guidelines:
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-1.  Fork the repository.
-2.  Create a new branch for your feature or bug fix.
-3.  Submit a pull request with a clear description of your changes.
+## What technologies are used for this project?
 
-Roadmap
+This project is built with .
 
-* Phase 1: Foundation and Token Launch**
-* Phase 2: DRU Development and Asset NFTs**
-* Phase 3: Ecosystem Expansion and Governance**
-* Phase 4: Data Analytics and AI Integration**
-* Phase 5: Global Scalability and Circular Economy**
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-License
+## How can I deploy this project?
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+Simply open [Lovable](https://lovable.dev/projects/700e5576-d57b-4f51-8811-61ea93f1a5e0) and click on Share -> Publish.
 
-Contact
+## I want to use a custom domain - is that possible?
 
-* Website: [Your Website URL]
-* Email: (https://k-aniruddha-sharma.netlify.app)
-* Social Media: [Links to your Social Media Profiles]
-
-Disclaimer
-
-This project is under development. Please use it at your own risk.
+We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
